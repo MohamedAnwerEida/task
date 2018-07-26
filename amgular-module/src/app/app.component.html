@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>All Users</h1>
+<p class="description">Click on the "show"-link to see the content.</p>
+<button (click)="toggle()" id="bt">
+    {{buttonName}}
+</button>
+
+<ng-container *ngIf="show">
+    <div style="margin: 0 auto;text-align: left;">
+      <table  *ngFor="let user of users" class="table table-border table-striped" >
+        <tr>
+          <td>{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+        </tr>
+      </table>
+    </div>
+</ng-container>

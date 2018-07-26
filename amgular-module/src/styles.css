@@ -1,0 +1,15 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+html, body {
+  background-color: #ecf0f1;
+  margin: 20px auto;
+  display: block;
+  max-width: 600px;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  padding: 20px;
+  position: relative;
+}
